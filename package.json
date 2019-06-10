@@ -1,0 +1,23 @@
+{
+    "name": "GitHub",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "dotenv": "^8.0.0",
+        "ejs": "^2.6.1",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "jshint": "^2.10.2",
+        "mongoose": "^5.5.13",
+        "nodemon": "^1.19.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node server.js",
+        "devStart": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
